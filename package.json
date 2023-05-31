@@ -1,0 +1,17 @@
+{
+  "name": "mailslurpcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "cypress-mailslurp": "^1.7.0",
+    "mailslurp-client": "^15.17.1"
+  }
+}
