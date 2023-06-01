@@ -33,8 +33,3 @@ Cypress.Commands.add('waitForLatestEmail', () => {
   return mailslurp.waitForLatestEmail('70844370-80b7-4c32-873d-d3d58cafe1c8');
 });
 
-Cypress.Commands.add('getLatestEmail', () => {
-  return mailslurp.getEmails('70844370-80b7-4c32-873d-d3d58cafe1c8').then((emails) => {
-    return emails.items[0];
-  });
-});
